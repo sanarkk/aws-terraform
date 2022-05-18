@@ -20,7 +20,7 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    Name  = "Terraform security web"
-    Owner = "Sasha"
+    Name  = "name"
+    Owner = "owner"
   }
 }
