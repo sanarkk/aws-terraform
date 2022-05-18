@@ -11,7 +11,7 @@ resource "aws_autoscaling_group" "web" {
   dynamic "tag" {
     for_each = {
       Name   = "Webserver in ASG"
-      Owner  = "Sasha"
+      Owner  = "owner"
       TAGKEY = "TAGVALUE"
     }
     content {
